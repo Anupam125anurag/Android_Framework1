@@ -1,0 +1,7 @@
+Device_Serial:
+    Serial: emulator-5554
+Wi-Fi_Cred:
+    SSID: abc
+    PWD: 123
+
+
