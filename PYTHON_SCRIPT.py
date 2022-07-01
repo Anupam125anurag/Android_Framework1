@@ -38,7 +38,7 @@ time.sleep((1000*10)/1000)
 
 #run cts - Pre certification
 
-os.system("/home/idm/Desktop/MytcsApp1/android-cts-10_r11-linux_x86-arm/android-cts/tools/cts-tradefed run cts -m CtsPermissionTestCases")
+#os.system("/home/idm/Desktop/MytcsApp1/android-cts-10_r11-linux_x86-arm/android-cts/tools/cts-tradefed run cts -m CtsPermissionTestCases")
 
 #echo <password> | sudo -S <cmd> 
 
