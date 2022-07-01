@@ -5,7 +5,7 @@ build_id=os.popen("adb shell getprop ro.build.id").read()
 build_fingerprint=os.popen("adb shell getprop ro.product.build.fingerprint").read()
 build_date=os.popen("adb shell getprop ro.product.build.date").read()
 build_type=os.popen("adb shell getprop ro.product.build.type").read()
-mydir = "/home/idm/Desktop/MytcsApp1"
+mydir = "/var/lib/jenkins/workspace/Android_Framework_Pixel_git"
 
 build_id=os.popen("adb shell getprop ro.build.id").read()
 
@@ -17,7 +17,7 @@ for subdir,dirs,files in os.walk(mydir):
                 file=open(filepath,'r').read().splitlines()
                 for elements in range(0,len(file)):
                     if "Caused by" in file[elements]:
-                        f=open("/home/idm/Desktop/MytcsApp1/Parser_Result.txt" , "w")
+                        f=open("/var/lib/jenkins/workspace/Android_Framework_Pixel_git/Parser_Result.txt" , "w")
 
 			
 			
