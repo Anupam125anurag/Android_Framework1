@@ -44,7 +44,7 @@ head = ["BUILD", "DETAILS"]
 
 
 # display table
-f=open("/home/idm/Desktop/MytcsApp1/Report_all.txt" , "w")
+f=open("Android_Framework_Pixel_git/Report_all.txt" , "w")
 f.write("BELOW IS THE REPORT OF DEVICE : PIXEL 4XL" )
 f.write(tabulate(mydata,tablefmt="grid"))
 
